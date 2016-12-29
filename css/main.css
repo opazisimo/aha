@@ -1,0 +1,165 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.links {
+  font-weight: bolder !important;
+  text-transform: uppercase;
+  color: white !important;
+}
+.title {
+  font-weight: 700 !important;
+  text-transform: uppercase;
+}
+.subti {
+  font-size: 1.2em;
+  margin:5vh 0vh;
+}
+.sec{
+  font-size: 3em;
+  margin: 0px 0px 50px 0px;
+}
+
+button {
+  background-color: #EC0000;
+}
+
+button:hover {
+  background-color: #0033A0;
+  color: white !important;
+}
+
+/* Navbar */
+.navbar-brand img {
+  max-width:80px; 
+  margin-top: -7px;
+}
+.navbar {
+  background-color: #21295C;
+  border: none;
+  border-radius: 0px;
+  height: 10vh;
+
+}
+.navbar a {
+  color: white;
+  text-transform: 
+}
+.limenu {
+  height: 10vh;
+  padding: 10px 0px;
+}
+.limenu:hover{
+  background-color: #EC0000;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  background-color: #EC0000;
+}
+.dropdown-menu {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #21295C;
+  border: none;
+}
+.dropdown-menu>li>a:hover {
+  background-color: #EC0000;
+}
+.dropdown-menu>li>a{
+  padding:15px 10px;
+}
+/* Bienvenida*/
+#bienvenida{
+  background: url("../img/portada.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color:white;
+  height:90vh;
+  padding: 20vh 0vh;
+}
+#bienvenida h1 {
+  font-size: 5rem;
+
+}
+#bienvenida .subti {
+  width: 50%;
+}
+/* footer */
+footer {
+  padding: 10px 0px;
+  background-color: #21295C;
+  color: white;
+  font-size: 30px;
+}
+footer a {
+  color: white;
+  margin: 0px 15px;
+}
+footer a:hover{
+  color: #EC0000;
+}
+
+
+/* aha */
+.seccion{
+  color: #21295C;
+  padding: 80px 0px;
+}
+.ahaimg{
+  width: 100%;
+}
+
+.btn-aha {
+  margin: 20px 20px 20px 0px;
+}
+
+.texto-asociacion {
+  margin-bottom: 50px;
+}
+
+.botones button {
+  display: block;
+  width: 100%;
+}
+
+/* foto */
+
+#photo{
+  background: url('../img/volveremos.png');
+  padding: 200px 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Proyectos */
+
+#proyectos {
+
+}
+
+/* Call to action */
+
+
+#call {
+  background-color: #21295C;
+  color: white;
+  padding: 50px;
+}
+
+#call h3 {
+  font-size: 2.5em;
+}
+
+#call button {
+  margin-top: 20px;
+}
+
+/* Contacto */
+
+.parrafo-contacto{
+  margin-bottom: 60px;
+}
+.mensaje {
+  resize: none;
+}
